@@ -1,0 +1,146 @@
+.fw-100 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.fw-200{
+    font-family: 'Cormorant', serif;
+}
+
+.fs-15 {
+    font-size: 15px !important;
+}
+
+.fs-40 {
+    font-size: 50px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.object-fit{
+    object-fit: cover !important;
+}
+
+.point{
+    list-style-type: none !important;
+}
+
+.text-decoration{
+    text-decoration: none !important;
+}
+
+.text-decoration:hover{
+    text-decoration: none !important;
+    color: red !important;
+    cursor: pointer !important;
+    transition: 0.2s !important;
+}
+
+.text-hover-footer{
+    color: white !important;
+    transition: 0.2s !important;
+}
+
+.footer{
+    background-color: black !important;
+}
+
+.text-hover-footer:hover{
+    color:  #a4161a              !important;
+    transition: 0.2s !important;
+    cursor: pointer !important;
+}
+
+.active.nav_jualan{
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+    border-bottom: 2px solid black !important;
+}
+
+.navbar-admin{
+    height: 40px !important;
+}
+
+.border-bottom{
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+}
+
+.border-bottom:focus{
+    box-shadow: none !important;
+    border-bottom: 1.5px solid #7b7979 !important;
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 2px black;
+    transition: 0.4s;
+}
+
+a.text-shadow:hover{
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.463);
+        color: black !important;
+        transition: 0.4s;
+}
+
+.btn-primary {
+    background-color: black !important;
+    color: white !important;
+    border: 0px none !important;
+    transition: 0.6s !important;
+}
+
+.btn-primary:hover {
+    background-color: white !important;
+    color: black !important;
+    border: 0px none !important;
+    transition: 0.6s !important;
+}
+
+.bar {
+    background-image: url("../img/bg.jpg");
+    width: 100%;
+    height: 585px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dark {
+    width: 100%;
+    height: 585px;
+    background-color: rgba(0, 0, 0, 0.221);
+}
+
+.koleksi_pertama {
+    background-image: url("../img/collection/bangku.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 400px !important;
+    height: 200px !important;
+    cursor: pointer !important;
+    transition: 0.6s !important;
+}
+
+.koleksi_kedua {
+    background-image: url("../img/bg.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 400px !important;
+    height: 200px !important;
+    cursor: pointer !important;
+    transition: 0.6s !important;
+}
+
+.img-hover:hover{
+    width: 100% !important;
+    height: 200px !important;
+    background-color: #66070983 !important;
+    cursor: pointer !important;
+    transition: 0.6s !important;
+}
